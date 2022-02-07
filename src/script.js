@@ -64,7 +64,7 @@ function checkAge(age, weight)
             return `Your weight is perfect!`;
         }
     }
-    else if(age >=15 && age <= 15)
+    else if(age >=11 && age <= 15)
     {
         if(weight < 26)
         {

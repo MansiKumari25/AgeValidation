@@ -5,10 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Age Validation</title>
-    <link href="style.css" type="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <script src="script.js"></script>
 </head>
 <body>
-    
+    <div class="wrapper">
+        <div class="formdiv">
+            <form>
+                <div class="inp"><label>Name: </label><input type="text" id="name" name="name"></div>
+                <div class="inp"><label>Age: </label><input type="text" id="age" name="age"></div>
+                <div class="inp"><label>Weight: </label><input type="text" id="weight" name="weight"></div>
+                <div class="inp"><button type="button" onclick="validate()">Submit</button></div>
+            </form>
+
+            <div id="output">
+
+            </div>
+        </div>
+    </div>
 </body>
 </html>
